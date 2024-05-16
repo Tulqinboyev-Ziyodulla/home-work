@@ -1,0 +1,49 @@
+.footer {
+    margin-top: 100px;
+
+    .finish {
+        display: flex;
+        justify-content: space-between;
+
+
+        .foot__img {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h3 {
+                color: $bg-sy;
+                font-size: 30px;
+            }
+        }
+
+        p {
+            max-width: 320px;
+            margin-top: 20px;
+            color: #757575;
+            font-size: $size;
+        }
+
+        .icon {
+            display: flex;
+            gap: 12px;
+            margin-top: 50px;
+
+        }
+
+        .food {
+
+            h3 {
+                color: $bg-sy;
+                font-size: 24px;
+            }
+
+            p {
+                font-size: $size;
+                margin-top: 15px;
+            }
+
+        }
+
+    }
+}

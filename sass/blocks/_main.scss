@@ -1,0 +1,205 @@
+.main {
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: $bg-py;
+        border-radius: 30px;
+        box-shadow: grey 0 5px 5px 0;
+        width: 90%;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: -130px;
+
+        .menu__p {
+            text-align: center;
+            margin-top: 65px;
+            color: #265A6A;
+            font-size: 24px;
+        }
+
+        .menu__title {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+
+            h2 {
+                text-align: center;
+                color: #08546C;
+                font-size: 48px;
+            }
+
+            p {
+                color: #08546C;
+                font-size: $size;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+
+        p {
+            color: #265A6A;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        h3 {
+            color: #08546C;
+            font-size: 45px;
+            max-width: 600px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+
+    .box {
+        display: flex;
+        gap: 26px;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            width: 273px;
+            height: 251px;
+            background-color: $bg-py;
+            box-shadow: #ddd 5px 5px 5px 5px;
+            padding: 20px;
+            margin-top: 70px;
+            transition: 1s;
+
+            &:hover {
+                background-color: #158695;
+                color: $bg-py;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            
+            h3 {
+                color: #0F1221;
+                font-size: 24px;
+                margin-top: 36px;
+
+                &:hover {
+                    color: $bg-py;
+                }
+            }
+
+            p {
+                margin-top: 10px;
+                line-height: 25px;
+                max-width: 250px;
+            }
+        }
+    }
+
+    .key {
+        text-align: center;
+        margin-top: 200px;
+
+        h3 {
+            color: $bg-sy;
+            font-size: 45px;
+            line-height: 56px;
+        }
+
+        p {
+            color: #757575;
+            font-size: $size;
+            margin-top: 10px;
+            max-width: 550px;
+            margin: auto;
+            line-height: 28px;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 140px;
+        margin-top: 60px;
+
+        .cart {
+            width: 500px;
+            height: 600px;
+            box-shadow: #ddd 5px 5px 5px 5px;
+            transition: 1s;
+
+            &:hover {
+                transform: rotate(5deg) skew(5deg);
+            }
+
+            h3 {
+                color: $bg-sy;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            .cart__title {
+                color: #757575;
+                font-size: 16px;
+                line-height: 25px;
+                max-width: 450px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+
+            .cart__p {
+                color: $bg-sy;
+                font-size: $size;
+                margin-top: 20px;
+                margin-left: 20px;
+
+                &:hover {
+                    color: #FFA800;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+
+    }
+
+    .end {
+        width: 100%;
+        height: 730px;
+        background-color: #265A6A;
+        margin-top: 200px;
+
+        .end__collection {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            img {
+                margin-top: 100px;
+            }
+
+            .end__title {
+
+                p {
+                    max-width: 585px;
+                    color: $bg-py;
+                    font-size: 16px;
+                    line-height: 25px;
+                    margin-top: 32px;
+                }
+
+                .p {
+                    color: #AABFC6;
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
+
+}
